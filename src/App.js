@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>サポートページ</h1>
       </header>
+      <main className="App-main">
+        <section className="support-section">
+          <h2>お問い合わせ</h2>
+          <p>
+            さらなるサポートが必要な場合は、以下の方法でお問い合わせください：
+          </p>
+          <ul>
+            <li>メール: nhayato28@gmail.com</li>
+          </ul>
+        </section>
+      </main>
     </div>
   );
 }
